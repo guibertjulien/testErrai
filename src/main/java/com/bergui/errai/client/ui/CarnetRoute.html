@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>A full HTML snippet</title>
+</head>
+<body>
+	<core-header-panel id="carnet-route" navigation flex mode="waterfall-tall"> 
+		
+		<core-toolbar id="core_toolbar">
+			<div>CARNET DE ROUTE</div>
+			<section class="bottom fit search">
+				<paper-input-decorator id="input_step_name" label="Nouvelle étape" floatingLabel error="L'etape est obligatoire !" autoValidate>
+					<input id="textBox_autocomplete" is="core-input" required> 
+				</paper-input-decorator>
+				<paper-button raised id="button_add_step">Ajouter</paper-button>
+			</section>
+		</core-toolbar> 
+		
+		<core-menu valueattr="label" id="core_menu" theme="core-light-theme">
+			<section>
+				<div id="dyn"></div>
+			</section>
+		</core-menu>
+		
+	</core-header-panel>
+</body>
+</html>

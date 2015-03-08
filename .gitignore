@@ -51,3 +51,9 @@ hs_err_pid*
 target/
 target/classes
 .errai/
+src/main/webapp/WEB-INF/classes/
+src/main/webapp/app/app.nocache.js
+
+src/main/webapp/app/clear.cache.gif
+
+src/main/gwt-unitCache/gwt-unitCache-*
